@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Description: prints alphabet in lowercase then uppercase
+ * main - Entry point
+ * Description: prints lowercase alphabets
  * Return: Always 0 (success)
  */
 int main(void)
@@ -10,12 +10,11 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	        if(ch != 'e' && ch != 'q')
-                {
-                        putchar(ch);
-                }
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
 	}
-        putchar('\n');
+	putchar('\n');
 	return (0);
 }
-
