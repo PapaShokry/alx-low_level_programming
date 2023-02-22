@@ -9,13 +9,13 @@
 
 int _isalpha(int c)
 {
-        int i;
-        for (i = 65; i <= 122; i++)
-        {
-                if (i == c)
-                {       
-                        return (1);
-                }
-        }
-        return (0);
+int i;
+for (i = 65; i <= 122; i++)
+{
+if (i == c)
+{       
+return (1);
+}
+}
+return (0);
 }
