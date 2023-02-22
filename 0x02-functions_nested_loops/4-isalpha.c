@@ -8,7 +8,8 @@
 
 int _isalpha(int c)
 {
-        for (int i = 65; i <= 122; i++)
+int i;
+        for (i = 65; i <= 122; i++)
         {
                 if (i == c)
                 {
