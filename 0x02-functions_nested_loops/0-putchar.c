@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry to the program
@@ -8,6 +8,15 @@
 
 int main(void)
 {
-printf("%s\n", "_putchar");
+char word[] = "_putchar";
+int i = 0;
+
+while (word[i] != '\0')
+{
+char c = word[i];
+_putchar(c);
+i++;
+}
+_putchar('\n');
 return (0);
 }
