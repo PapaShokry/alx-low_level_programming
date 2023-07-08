@@ -1,4 +1,4 @@
-#include "main.h"
+:w ++ff=unix#include "main.h"
 
 /**
 *_strlen_recursion - function that returns the length of a string
